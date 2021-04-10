@@ -6,7 +6,8 @@
             <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
             <b-navbar-nav>
-                <b-nav-item href="/">Home</b-nav-item>
+                <b-nav-item to="/">Home</b-nav-item>
+                <b-nav-item to="/userpoetry/">User poetry</b-nav-item>
 
                 <b-nav-item-dropdown text="Great Poets" right>
                     <b-dropdown-item href="#">Maya Angelou</b-dropdown-item>

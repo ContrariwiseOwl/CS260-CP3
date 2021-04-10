@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import UserPoetry from '../views/UserPoetry.vue'
+import MyPoetry from '../views/MyPoetry.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path:'/userpoetry',
     name: 'UserPoetry',
     component: UserPoetry
+  },
+  {
+    path: '/mypoetry',
+    name: 'MyPoetry',
+    component: MyPoetry
   }
 ]
 
