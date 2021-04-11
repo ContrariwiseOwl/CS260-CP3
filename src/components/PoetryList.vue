@@ -4,7 +4,7 @@
             <p><strong>{{poem.title}}</strong> by {{poem.author}}</p>
             <div class="stanza">
                 <ul>
-                    <li v-for="line in poems.lines" :key="line.charAt(0)"></li>
+                    <li v-for="line in poem.content" :key="line.charAt(0)">{{line}}</li>
                 </ul>
             </div>
         </div>
@@ -17,8 +17,11 @@ export default {
     props: {
         poems: Array
     },
-    data: {
-        noName: true
-    }
 }
 </script>
+
+<style scoped>
+.poem {
+    padding: 6px 12px;
+}
+</style>
