@@ -19,7 +19,7 @@
                             <li>Let none look at me !</li>
                         </ul>
                     </div>
-                    <a href="/pages/dailypoem.html">Read more...</a>
+                    <a to="/dailypoem">Read more...</a>
                 </div>
 
                 <div class="welcome">
