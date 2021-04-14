@@ -19,7 +19,7 @@
                             <li>Let none look at me !</li>
                         </ul>
                     </div>
-                    <a to="/dailypoem">Read more...</a>
+                    <router-link to="/dailypoem">Read more...</router-link>
                 </div>
 
                 <div class="welcome">
