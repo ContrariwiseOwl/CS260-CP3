@@ -1,6 +1,10 @@
 <template>
 <div class="background-page">
     <div class="main-page">
+        <div class="logo-box mini-logo-title">
+                    <img src="/images/logo-mobile.png"/>
+                    <h1>My Poetry</h1>
+                </div>
         <div v-if="noName">
             <div class="welcome">
                 <p>Write, edit, and submit your own poetry. Please be consistent about what name you write under.</p>

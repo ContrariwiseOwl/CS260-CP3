@@ -1,6 +1,10 @@
 <template>
     <div class="background-page">
         <div class="main-page">
+            <div class="logo-box mini-logo-title">
+                    <img src="/images/logo-mobile.png"/>
+                    <h1>User Poetry</h1>
+                </div>
             <div class="welcome">
                 <p>This page hosts our collection of user-submitted poetry. A big thank you to everyone who has
                     submitted their work for us to show the world! If you would like to submit your own poetry, go to the "My Poetry" page.
