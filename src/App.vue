@@ -5,18 +5,21 @@
             <b-navbar-brand>I♡Poetry</b-navbar-brand>
             <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
+            <b-collapse id="nav-text-collapse" is-nav>
             <b-navbar-nav>
                 <b-nav-item to="/">Home</b-nav-item>
                 <b-nav-item to="/userpoetry">User poetry</b-nav-item>
                 <b-nav-item to="/mypoetry">My Poetry</b-nav-item>
+                <b-nav-item to="/dailypoem">Daily Poem</b-nav-item>
+                <b-nav-item to="/poetryhouse">Poetry House</b-nav-item>
 
-                <b-nav-item-dropdown text="Great Poets" right>
+                <!--<b-nav-item-dropdown text="Great Poets" right>
                     <b-dropdown-item href="#">Maya Angelou</b-dropdown-item>
                     <b-dropdown-item href="#">Edgar Allan Poe</b-dropdown-item>
                     <b-dropdown-item href="#">Langston Hughes</b-dropdown-item>
                     <b-dropdown-item href="#">William Shakespeare</b-dropdown-item>
                     <b-dropdown-item href="#">Raplh Waldo Emerson</b-dropdown-item>
-                </b-nav-item-dropdown>
+                </b-nav-item-dropdown>-->
             </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
@@ -26,6 +29,8 @@
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar-nav>
+
+            </b-collapse>
         </b-navbar>
     </div>
     <router-view/>
